@@ -31,6 +31,13 @@ master branch contain all branches information.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+#### Branch name - [simple-boillerplate](https://github.com/anmolsukki/rj_boillerplate/tree/simple-boillerplate)
+###### Description 
+
+reactjs simple boillerplate.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 #### Developer Profile
 *   Name - Anmol Singh
 
