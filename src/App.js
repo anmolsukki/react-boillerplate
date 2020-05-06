@@ -16,7 +16,7 @@ const DefaultLayout = loadable(() => import('./Containers'), {
 class App extends Component {
   render() {
     return (
-      <main>
+      <main style={{ marginTop: '56px' }}>
         <HashRouter>
           <Switch>
             <Route path="/" component={DefaultLayout} />
