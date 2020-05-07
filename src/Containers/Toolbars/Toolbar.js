@@ -27,7 +27,6 @@ const navbar = (props) => {
               return (
                 <li key={item.link}>
                   <Link
-                    id="navActive"
                     to={item.link}
                     className={`${ToolbarClass.navOption} ${
                       item.isSelected === true ? ToolbarClass.active : ''
