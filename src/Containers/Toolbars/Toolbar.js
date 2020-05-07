@@ -10,7 +10,7 @@ const navbar = (props) => {
         <div className={ToolbarClass.toolbarToggleButton}>
           <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
-        <div className={ToolbarClass.logo}>
+        <div className={ToolbarClass.logo} onClick={props.drawerClickHandler}>
           <Link to="/home">LOGO</Link>
         </div>
         <div className={ToolbarClass.spacer} />
