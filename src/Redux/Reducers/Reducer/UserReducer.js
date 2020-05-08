@@ -6,7 +6,7 @@ const initialState = {
   error: null,
 };
 
-const UserReducer = (state = initialState, action) => {
+export const UserReducer = (state = initialState, action) => {
   switch (action.type) {
     case actionConstant.GET_USER_DATA_INIT:
       return {
@@ -29,5 +29,3 @@ const UserReducer = (state = initialState, action) => {
   }
   return state;
 };
-
-export default UserReducer;
