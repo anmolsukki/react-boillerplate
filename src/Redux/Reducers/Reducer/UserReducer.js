@@ -1,4 +1,4 @@
-import * as actionConstant from '../Actions/ActionConstant/ActionConstant';
+import * as actionConstant from '../../Actions/ActionConstant/ActionConstant';
 
 const initialState = {
   reUserData: [],
